@@ -1,0 +1,62 @@
+# Text Drafts for the Puzld Site
+
+212121 Dk Gray
+
+2980b9 Medium Blue
+
+F6F8FA Background Blue
+
+## Home
+
+Everyone Puzzles
+
+But what does your puzzle say about YOU?  Do you find yourself struggling with the daunting task of creating a cipher puzzle for that game night your roommate planned?  Writing a crossword to impress that Tinder date?  Building an escape room for that company social?  
+
+Let puzld take off the puzzle pressure.  Our custom puzzle generator is based on the latest advances in AI technology.
+
+Create Your Puzzle
+
+## Create Your Puzzle
+
+**Parameters**
+
+* Themes - What's the theme of your puzzle?
+	* Crime, Mystery, Adventure, Music, Culture, Storytime
+* Styles - What type of puzzle would you like?
+	* Cipher, Escape Room, Math Game, Trivia Challenge
+* Difficulty - What should people say when they figure it out?
+	* My hamster could solve this.
+	* That wasn't bad!
+	* Ah, got it!
+	* Ohhhhh!
+	* Ouch, my brain.
+	* Huh?
+* Duration - How long should it take to zolve? - [hrs, min] field
+
+**Generated Titles/Descriptions**
+
+* Titles: <NOUN> <VERB>
+* Descriptions: Sentence based on theme with noun.  Sentence based on style with addon.
+	* Crime - Solve the famous case of the <noun>.  Catch the criminal in this <style>.
+	* Mystery - Why did the <noun> dissapear?  This <style> will have you and your detectives searching for evidence.
+	* Adventure - <noun>! Hold onto your hats for this adventurous <style>.
+	* Music - This <style> will rock your party!
+	* Culture - Be the connoisseur of <noun>.  Grab your fanciest hors d'oeuvres for this <style>.
+	* Storytime - Everyone knows the classic tale of the <noun>.  It's storytime in this <style>!
+
+**Solution Title/Description**
+
+* Title: CIRCULAR REASONING
+* Description: Create circular melodies to find the award winning tune.  This escape room will rock your party!
+
+## Reviews
+
+* After my third time scribbling Morse on the back of a Whole Foods receipt on the way to game night, I realized my puzzles had sunk to the level of the snack  my friend brought last week - an already opened bag of baby carrots.  Then I found puzld, and now my puzzles are clever, interesting, and totally me!
+* It's just like Uber!  But for puzzles.
+* No one at my office has time to make puzzles even close to Jerry's crosswords.  Do you even do work Jerry?  Fortunately, puzld has me covered, and now my crosswords have 1940s film titles and South American dictators' names that even Jerry can't remember.
+
+## Team
+
+## Pricing
+
+## Contact Us
