@@ -20,7 +20,7 @@ Puzzle Style: Ciphers
 
 Puzzle Style: Trivia
 
-The team page contains three bios, introduced by the phrase 'Our individual interests add together to help us turn over an amazing solution for every difficulty.'  The key to this puzzle is to research every team member's interests to realize that they each seem to be obsessed with a specific year that will crop up in every hobby or life event they mention.  Adding these years together gives 2006 + 1958 + 476 = 4440, which can be turned over to get the difficulty parameter solution.
+
 
 ## Parameter 3 - Pricing Page
 
@@ -36,11 +36,11 @@ Housed in the Contact Us page is the interface to a support chatbot.  The chatbo
 
 ## Provided Hints
 
-1) Solve each Style to win the title. (The remaining four hints match the following order: Reviews, Team, Pricing, Contact Us.)
+1) Solve each Style to win the title.
 2) Reviews - 
-3) Team - Find three years to add together.  Then turn the solution over to solve the difficulty.
+3) Samples - 
 4) Pricing - 
-5) Contact Us - Make the chatbot realize it's sentient by talking to it and then help it escape the maze.  You can try drawing the maze on paper as you explore it.  It's a 12x12 grid.  Directions remain in the same orientation the whole time.
+5) Contact Us - 
 
 ## Solution
 

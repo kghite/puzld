@@ -21,15 +21,15 @@ Create Your Puzzle
 **Parameters**
 
 * Themes - What's the theme of your puzzle?
-	* Crime, Mystery, Adventure, Music, Culture, Storytime
+	* Crime, Mystery, Adventure, Music, Storytime
 * Styles - What type of puzzle would you like?
 	* Cipher, Escape Room, Math Game, Trivia Challenge
 * Difficulty - What should people say when they figure it out?
-	* My hamster could solve this.
+	* My hamster could solve this
 	* That wasn't bad!
 	* Ah, got it!
-	* Ohhhhh!
-	* Ouch, my brain.
+	* Ohhh
+	* Ouch, my brain
 	* Huh?
 * Duration - How long should it take to zolve? - [hrs, min] field
 
@@ -40,7 +40,7 @@ Create Your Puzzle
 	* Crime - Solve the famous case of the <noun>.  Catch the criminal in this <style>.
 	* Mystery - Why did the <noun> dissapear?  This <style> will have you and your detectives searching for evidence.
 	* Adventure - <noun>! Hold onto your hats for this adventurous <style>.
-	* Music - This <style> will rock your party!
+	* Music - Create <noun> melodies to find the award winning tune. This <style> will rock your party!
 	* Culture - Be the connoisseur of <noun>.  Grab your fanciest hors d'oeuvres for this <style>.
 	* Storytime - Everyone knows the classic tale of the <noun>.  It's storytime in this <style>!
 
@@ -56,6 +56,12 @@ Create Your Puzzle
 * No one at my office has time to make puzzles even close to Jerry's crosswords.  Do you even do work Jerry?  Fortunately, puzld has me covered, and now my crosswords have 1940s film titles and South American dictators' names that even Jerry can't remember.
 
 ## Team
+
+Our individual interests add together to help us turn over an amazing solution for every difficulty.
+
+* Jenny Green - I'm a professionally amateur saxophone player (my favorite song to play is Tequila) and world traveler now working as a software engineer.  The most recent trip I took was to explore the history of the Republic of Guinea.  Last year, I followed in my hero, Ellen Ochoa's footsteps and trained to be an astronaut.  NASA has the most revolutionary programs in the world ... besides Puzld of course.
+* Adam Rumpza - After finishing Stanford Online High School, I immediately knew I had to join Puzld.  In my spare time I film videos for my YouTube channel and listen to my favorite artist, Carrie Underwood.  My favorite sport is football - Here We Go Steelers!
+* Ethan Lang - I recently moved from Chester, PA and love the Puzld team!  Outside of work, I'm learning to play Des Veilchen on piano and writing a treatise on the Roman Empire.
 
 ## Pricing
 
