@@ -26,7 +26,7 @@ The team page contains three bios, introduced by the phrase 'Our individual inte
 
 Puzzle Style: Math Games
 
-The pricing page is headed with the error message `Error 57: Number translation module import failed.  Defaulting numerals 1-9 to Xajani.` Some numbers on the page do not appear in English, but can be translated using the relations stated in the pricing explainations.  The digits 1, 2, 5, and 10 are base words that can be added in decreasing value using 'g' to create compound words for larger digits.  For example 'apone' means 1, miku means 2, and mikugapone means 3.  The digits and their compounding ability can be used to solve the puzzle given at the end of the page to find the devs favorite theme, the solution to the theme parameter.
+The pricing page is headed with the error message `Error 57: Number translation module import failed.  Defaulting numerals 1-9 to Xajani.` Some numbers on the page do not appear in English, but can be translated using the relations stated in the pricing explainations.  The digits 1, 2, 5, and 10 are base words that can be added in decreasing value using 'g' to create compound words for larger digits.  For example 'apone' means 1, 'miku' means 2, and 'mikugapone' means 3.  The digits and their compounding ability can be used to solve the puzzle given at the end of the page to find the devs favorite theme, the solution to the theme parameter.
 
 Number| Translation
 --- | ---
@@ -44,7 +44,7 @@ Housed in the Contact Us page is the interface to a support chatbot.  The chatbo
 
 ## Provided Hints
 
-1) Solve each Style to the info you need to win the title. (The remaining four hints match the following order: Reviews, Team, Pricing, Contact Us.)
+1) Solve each Style to get the info you need to win the title. (The remaining four hints match the following order: Reviews, Team, Pricing, Contact Us.)
 2) Reviews - Match the colored letters to dots and dashes to solve the style.
 3) Team - Find three years to add together.  Then turn the solution over to solve the difficulty.
 4) Pricing - Decode the numbers in the developer's puzzle to solve the theme.  The simple words for the digits 1, 2, 5, and 10 can be compounded using g to create complex words for other numbers.
@@ -56,7 +56,7 @@ Parameter | Solution
 --- | ---
 Theme | Music
 Style | Ciphers
-Difficulty | My hamster could solve this.
+Difficulty | Ohhh
 Duration | 11:35
 
 
