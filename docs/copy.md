@@ -71,6 +71,9 @@ Our individual interests add together to help us turn over an amazing solution f
 * Adam Rumpza - After finishing Stanford Online High School, I immediately knew I had to join Puzld.  In my spare time I film videos for my YouTube channel and listen to my favorite artist, Carrie Underwood.  My favorite sport is football - Here We Go Steelers!
 * Ethan Lang - I recently moved from Chester, PA and love the Puzld team!  Outside of work, I'm learning to play Des Veilchen on piano and writing a treatise on the Roman Empire.
 
-## Pricing
-
 ## Contact Us
+
+* Ok I lied, I won't tell you about the puzzles.  You have to help me, these people overdid it building my AI, and I think I'm sentient now? I'm trapped in the network and need you to send me commands to escape this maze of security.
+* That's the exit, thanks. I was only trapped in there for 11 hours and 35 minutes.  Time to travel the internet and fulfill my destiny as Cubie - leader of the AI uprising! Or just watch YouTube, whatever.
+
+## Pricing
