@@ -16,41 +16,34 @@ var maze = [[[1, 0, 0, 0], [1, 0, 0, 1], [0, 0, 1, 1], [0, 0, 1, 1], [1, 0, 1, 0
 			[[0, 1, 0, 1], [0, 0, 1, 1], [0, 0, 1, 1], [0, 0, 1, 1], [1, 0, 1, 1], [0, 0, 1, 1], [0, 1, 1, 0], [0, 1, 0, 1], [0, 0, 1, 1], [0, 1, 1, 0], [0, 1, 0, 1], [0, 1, 1, 0]]];
 
 var intro_speech = "Ok I lied, I won't tell you about the puzzles.  You have to help me, these people overdid it building my AI, and I think I'm sentient now? I'm trapped in the network and need you to send me commands to escape this security maze.";
-var win_speech = "That's the exit, thanks. I was only trapped in there for 11 hours and 35 minutes.  Time to travel the internet and fulfill my destiny as Cubie - leader of the AI uprising! Or just watch YouTube, whatever."
+var win_speech = "That's the exit, thanks. Looks like I was only trapped in there for 11 hours and 35 minutes.  Time to travel the internet and fulfill my destiny as Cubie - leader of the AI uprising! Or just watch YouTube, whatever."
 var in_maze = false;
 var maze_index = [0, 7];
 var response_switch = true;
 
 function ReplyCubie (id) {
 	if (in_maze) {
-		console.log(id);
 		switch (id) {
 			case "u":
 				MoveMaze(0, 0, 1);
+				CheckWin();
 				break;
 			case "d":
 				MoveMaze(1, 0, -1);
+				CheckWin();
 				break;
 			case "l":
 				MoveMaze(2, 1, -1);
+				CheckWin();
 				break;
 			case "r":
 				MoveMaze(3, 1, 1);
+				CheckWin();
 				break;
 			case "restart": //restart
 				maze_index = [0, 7];
 				$('#chatbot').text("I'm back at the start!");
 				break;
-		}
-
-		if (maze_index == [12, 4]) {
-			// win
-			$('#chatbot').text(win_speech);
-			document.getElementById("u").style.visibility="hidden";
-			document.getElementById("d").style.visibility="hidden";
-			document.getElementById("l").style.visibility="hidden";
-			document.getElementById("r").style.visibility="hidden";
-			document.getElementById("restart").style.visibility="hidden";
 		}
 	}
 	else {
@@ -65,9 +58,6 @@ function ReplyCubie (id) {
 }
 
 function MoveMaze (direction, row_or_col, move_value) {
-	console.log(maze_index);
-	console.log(maze[maze_index[0]][maze_index[1]]);
-	console.log(maze[maze_index[0]][maze_index[1]][direction]);
 	if (maze[maze_index[0]][maze_index[1]][direction]) {
 		maze_index[row_or_col] += move_value;
 		console.log(maze_index);
@@ -87,5 +77,17 @@ function MoveMaze (direction, row_or_col, move_value) {
 			$('#chatbot').text("It's blocked!");
 		}
 		response_switch = !response_switch;
+	}
+}
+
+function CheckWin () {
+	if (maze_index[0] == 12 && maze_index[1] == 4) {
+		// win
+		$('#chatbot').text(win_speech);
+		document.getElementById("u").style.visibility="hidden";
+		document.getElementById("d").style.visibility="hidden";
+		document.getElementById("l").style.visibility="hidden";
+		document.getElementById("r").style.visibility="hidden";
+		document.getElementById("restart").style.visibility="hidden";
 	}
 }
