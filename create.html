@@ -13,6 +13,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+<script src="js/generator.js"></script>
+
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,100italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -53,7 +55,10 @@
 					<div class="row">
 						<h2>Create Your Puzzle</h2>
 					</div>
-
+					<div class="row">
+						<p class="lead">Enter your preferences and we'll generate a title and description for your puzzle! Just like that, you have the answer to the current puzzle in your life. (Full puzzle features coming after our next funding round.)</p>
+						<h2></h2>
+					</div>
 					<!-- INPUT -->
 					<div class="row">
 						<label for="theme" class="lead">What is the theme of your puzzle:</label>
@@ -93,12 +98,21 @@
 						<input type="number" id="duration_hr" min="0" max="12">hrs</input>
 						<input type="number" id="duration_min" min="0" max=59>mins</input>
 					</div><!-- /.row -->
-					<p></p>
-					<p class="lead">
-					<input type="button" class="btn btn-lg btn-default" value="Generate Puzzle" onclick="GeneratePuzzle();">
-					</p>
-
+					<div class="row">
+						<h2></h2>
+						<p class="lead">
+						<input type="button" class="btn btn-lg btn-default" value="Generate Puzzle" onclick="GeneratePuzzle();">
+						</p>
+					</div><!-- /.row -->
 					<!-- OUTPUT -->
+					<div class="row">
+						<h2></h2>
+						<p id="puzzle_title" class="lead"></p>
+					</div><!-- /.row -->
+					<div class="row">
+						<p></p>
+						<p id="puzzle_description" class="lead"></p>
+					</div><!-- /.row -->
 				</div><!-- /.home-text -->
 			</div><!-- /.home-text-wrapper -->
 

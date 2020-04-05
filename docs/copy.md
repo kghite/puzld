@@ -18,6 +18,10 @@ Create Your Puzzle
 
 ## Create Your Puzzle
 
+**Instructions**
+
+Enter your preferences and we'll generate a title and description for your puzzle! Just like that, we give you the answer to the current puzzle in your life. (Full puzzle features coming after our next funding round.)
+
 **Parameters**
 
 * Themes - What's the theme of your puzzle?
