@@ -15,7 +15,7 @@ var maze = [[[1, 0, 0, 0], [1, 0, 0, 1], [0, 0, 1, 1], [0, 0, 1, 1], [1, 0, 1, 0
 			[[1, 1, 0, 1], [0, 1, 1, 0], [0, 1, 0, 1], [0, 0, 1, 1], [0, 1, 1, 1], [0, 0, 1, 0], [1, 1, 0, 0], [1, 1, 0, 0], [0, 1, 0, 1], [1, 0, 1, 0], [1, 1, 0, 0], [1, 0, 0, 0]],
 			[[0, 1, 0, 1], [0, 0, 1, 1], [0, 0, 1, 1], [0, 0, 1, 1], [1, 0, 1, 1], [0, 0, 1, 1], [0, 1, 1, 0], [0, 1, 0, 1], [0, 0, 1, 1], [0, 1, 1, 0], [0, 1, 0, 1], [0, 1, 1, 0]]];
 
-var intro_speech = "Ok I lied, I won't tell you about the puzzles.  You have to help me, these people overdid it building my AI, and I think I'm sentient now? I'm trapped in the network and need you to send me commands to escape this maze of security.";
+var intro_speech = "Ok I lied, I won't tell you about the puzzles.  You have to help me, these people overdid it building my AI, and I think I'm sentient now? I'm trapped in the network and need you to send me commands to escape this security maze.";
 var win_speech = "That's the exit, thanks. I was only trapped in there for 11 hours and 35 minutes.  Time to travel the internet and fulfill my destiny as Cubie - leader of the AI uprising! Or just watch YouTube, whatever."
 var in_maze = false;
 var maze_index = [0, 7];

@@ -3,7 +3,7 @@ var nouns = {"Crime": ["Murderer", "Detective", "Footprint", "Road", "Knife", "B
 				"Mystery": ["Spy", "Train", "Mansion", "Lightning", "Pencil", "Lantern"],
 				"Adventure": ["Pirate", "Jungle", "Lion", "Ship", "Treasure", "Squid"],
 				"Music": ["Melody", "Note", "Octave", "Symphony", "Orchestra", "Bassoon"],
-				"Storytime": ["Tiger", "Princess", "Centaur", "Throne", "Ocean", "Tower"]};
+				"Story": ["Tiger", "Princess", "Centaur", "Throne", "Ocean", "Tower"]};
 
 // Verbs by style
 var verbs = {"Cipher": ["Roaming", "Running", "Sorting", "Whispering", "Forming", "Rolling"],
@@ -44,7 +44,7 @@ function GeneratePuzzle () {
 									"Mystery": `Why did the ${noun} dissapear? This ${style} will have you and your detectives searching for evidence.`,
 									"Adventure": `${noun}! Hold onto your hats for this adventurous ${style}.`,
 									"Music": `Create ${noun} melodies to find the award winning tune. This ${style} will rock your party!`,
-									"Storytime": `Everyone knows the classic tale of the ${noun}. It's storytime in this ${style}!`};
+									"Story": `Everyone knows the classic tale of the ${noun}. It's storytime in this ${style}!`};
 
   		var title = noun + " " + verb;
   		$('#puzzle_title').text(title.toUpperCase());

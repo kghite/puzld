@@ -28,6 +28,14 @@ Puzzle Style: Math Games
 
 The pricing page is headed with the error message `Error 57: Number translation module import failed.  Defaulting numerals 1-9 to Xajani.` Some numbers on the page do not appear in English, but can be translated using the relations stated in the pricing explainations.  The digits 1, 2, 5, and 10 are base words that can be added in decreasing value using 'g' to create compound words for larger digits.  For example 'apone' means 1, miku means 2, and mikugapone means 3.  The digits and their compounding ability can be used to solve the puzzle given at the end of the page to find the devs favorite theme, the solution to the theme parameter.
 
+Number| Translation
+--- | ---
+1 | apone
+2 | miku
+3 | mikugapone
+5 | aema
+10 | tipa
+
 ## Parameter 4 - Contact Us Page
 
 Puzzle Style: Escape Room

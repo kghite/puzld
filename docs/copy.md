@@ -8,6 +8,8 @@
 
 F6F8FA Background Blue
 
+DE1738 Bright Red
+ 
 ## Home
 
 Everyone Puzzles
@@ -27,7 +29,7 @@ Enter your preferences and we'll generate a title and description for your puzzl
 **Parameters**
 
 * Themes - What's the theme of your puzzle?
-	* Crime, Mystery, Adventure, Music, Storytime
+	* Crime, Mystery, Adventure, Music, Story
 * Styles - What is the style of your puzzle?
 	* Cipher, Escape Room, Math Game, Trivia Challenge
 * Difficulty - What should people say when they figure it out?
@@ -48,7 +50,7 @@ Enter your preferences and we'll generate a title and description for your puzzl
 	* Adventure - <noun>! Hold onto your hats for this adventurous <style>.
 	* Music - Create <noun> melodies to find the award winning tune. This <style> will rock your party!
 	* Culture - Be the connoisseur of <noun>.  Grab your fanciest hors d'oeuvres for this <style>.
-	* Storytime - Everyone knows the classic tale of the <noun>.  It's storytime in this <style>!
+	* Story - Everyone knows the classic tale of the <noun>.  It's storytime in this <style>!
 
 **Solution Title/Description**
 
@@ -73,7 +75,10 @@ Our individual interests add together to help us turn over an amazing solution f
 
 ## Contact Us
 
-* Ok I lied, I won't tell you about the puzzles.  You have to help me, these people overdid it building my AI, and I think I'm sentient now? I'm trapped in the network and need you to send me commands to escape this maze of security.
+* Ok I lied, I won't tell you about the puzzles.  You have to help me, these people overdid it building my AI, and I think I'm sentient now? I'm trapped in the network and need you to send me commands to escape this security maze.
 * That's the exit, thanks. I was only trapped in there for 11 hours and 35 minutes.  Time to travel the internet and fulfill my destiny as Cubie - leader of the AI uprising! Or just watch YouTube, whatever.
 
 ## Pricing
+
+* Site Error 57: Number translation module import failed.  Defaulting numerals 1-9 to Xajani.
+* We provide in depth breakdowns to help you understand your puzzle cost.  For a preview of our basic tier puzzles, try decoding our favorite puzzle theme below.
