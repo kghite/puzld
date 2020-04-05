@@ -22,7 +22,7 @@ Create Your Puzzle
 
 * Themes - What's the theme of your puzzle?
 	* Crime, Mystery, Adventure, Music, Storytime
-* Styles - What type of puzzle would you like?
+* Styles - What is the style of your puzzle?
 	* Cipher, Escape Room, Math Game, Trivia Challenge
 * Difficulty - What should people say when they figure it out?
 	* My hamster could solve this
@@ -31,7 +31,7 @@ Create Your Puzzle
 	* Ohhh
 	* Ouch, my brain
 	* Huh?
-* Duration - How long should it take to zolve? - [hrs, min] field
+* Duration - How long should your puzzle take to zolve? - [hrs, min] field
 
 **Generated Titles/Descriptions**
 

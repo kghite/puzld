@@ -50,14 +50,55 @@
 			<div id="home-text-wrapper">
 
 				<div id="home-text">
-					<h1 class="cover-heading" id="cover-heading">Everyone Puzzles</h1>
-					<p></p>
-					<p class="lead" id="opener">But what does your puzzle say about YOU?  Do you find yourself struggling with the daunting task of creating a cipher puzzle for that game night your roommate planned?  Writing a crossword to impress that Tinder date?  Building an escape room for that company social?</p>
-					<p class="lead" id="opener">Let puzld take off the puzzle pressure.  Our custom puzzle generator is based on the latest advances in AI technology, and will build you a puzzle to wow.</p>
+					<div class="row">
+						<h2>Create Your Puzzle</h2>
+					</div>
+
+					<!-- INPUT -->
+					<div class="row">
+						<label for="theme" class="lead">What is the theme of your puzzle:</label>
+						<select id="theme">
+							<option value="empty"></option>
+						  	<option value="Crime">Crime</option>
+						 	<option value="Mystery">Mystery</option>
+							<option value="Adventure">Adventure</option>
+							<option value="Music">Music</option>
+							<option value="Storytime">Storytime</option>
+						</select>
+					</div><!-- /.row -->
+					<div class="row">
+						<label for="style" class="lead">What is the style of your puzzle:</label>
+						<select id="style">
+							<option value="empty"></option>
+						  	<option value="Cipher">Cipher</option>
+						  	<option value="Escape Room">Escape Room</option>
+						  	<option value="Math Game">Math Game</option>
+						 	<option value="Trivia Challenge">Trivia Challenge</option>
+						</select>
+					</div><!-- /.row -->
+					<div class="row">
+						<label for="difficulty" class="lead">What is the style of your puzzle:</label>
+						<select id="difficulty">
+							<option value="empty"></option>
+							<option value="0">My hamster could solve this</option>
+							<option value="1">That wasn't bad!</option>
+							<option value="2">Ah, got it!</option>
+							<option value="3">Ohhh</option>
+							<option value="4">Ouch, my brain</option>
+							<option value="4">Huh?</option>
+						</select>
+					</div><!-- /.row -->
+					<div class="row">
+						<label for="duration" class="lead">How long should your puzzle take to solve:</label>
+						<input type="number" id="duration_hr" min="0" max="12">hrs</input>
+						<input type="number" id="duration_min" min="0" max=59>mins</input>
+					</div><!-- /.row -->
 					<p></p>
 					<p class="lead">
-						<a href="create.html" class="btn btn-lg btn-default">Create Your Puzzle</a>
+					<input type="button" class="btn btn-lg btn-default" value="Generate Puzzle" onclick="GeneratePuzzle();">
 					</p>
+
+					<!-- OUTPUT -->
 				</div><!-- /.home-text -->
 			</div><!-- /.home-text-wrapper -->
 
