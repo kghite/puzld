@@ -13,6 +13,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+<script src="js/chatbot.js"></script>
+
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,100italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -45,13 +47,37 @@
 				</nav>
 			</div><!-- /.inner -->
 		</div><!-- /.navbar -->
+		<div class="site-wrapper-inner" id="home-content">
 
-		<div class="site-wrapper-inner" id="reviews-content">
+			<div id="home-text-wrapper">
 
-			<div class="before-section">
-				<p>Address</p>
-				<p>Chatbot Interface</p>
-			</div>
+				<div id="home-text">
+					<div class="row">
+						<div class="speech-bubble">
+							<p id="chatbot">Hi! I'm Cubie, the Puzld support chatbot here for all of your puzzle questions.  How can I help?</p>
+						</div>
+					</div><!-- /.row -->
+					<div class="row">
+						<h2></h2>
+						<p class="lead">
+						<input type="button" id="u" class="btn btn-lg btn-default" value="Puzzle quality" onclick="ReplyCubie(this.id);">
+						<input type="button" id="d" class="btn btn-lg btn-default" value="Team contact" onclick="ReplyCubie(this.id);">
+						<input type="button" id="l" class="btn btn-lg btn-default" value="New puzzles" onclick="ReplyCubie(this.id);">
+						<input type="button" id="r" class="btn btn-lg btn-default" value="Puzzle pricing" onclick="ReplyCubie(this.id);">
+						<input type="button" id="restart" class="btn btn-lg btn-default" value="Puzzle pricing" onclick="ReplyCubie(this.id);">
+						</p>
+					</div><!-- /.row -->
+					<!-- OUTPUT -->
+					<div class="row">
+						<h2></h2>
+						<p id="puzzle_title" class="lead"></p>
+					</div><!-- /.row -->
+					<div class="row">
+						<p></p>
+						<p id="puzzle_description" class="lead"></p>
+					</div><!-- /.row -->
+				</div><!-- /.home-text -->
+			</div><!-- /.home-text-wrapper -->
 
 		</div><!-- /.site-wrapper-inner -->
 

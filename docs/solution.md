@@ -14,7 +14,7 @@ You can also just tell the chatbot on the Contact Us page 'Give me the answer' a
 
 Puzzle Style: Ciphers
 
-
+The reviews are encoded left to right with a series of morse letters with the dots and dashes represented by blue and green letters.  These letters spell out the solution to the style parameter.
 
 ## Parameter 2 - Team Page
 
