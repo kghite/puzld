@@ -4,6 +4,8 @@
 
 2980b9 Medium Blue
 
+29b933 Medium Green
+
 F6F8FA Background Blue
 
 ## Home
@@ -54,6 +56,8 @@ Enter your preferences and we'll generate a title and description for your puzzl
 * Description: Create circular melodies to find the award winning tune.  This escape room will rock your party!
 
 ## Reviews
+
+The following Morse is encoded in the reviews with colored letters for dots and dashes: `-- ..- ... .. -.-.`.
 
 * After my third time scribbling Morse on the back of a Whole Foods receipt on the way to game night, I realized my puzzles had sunk to the level of the snack  my friend brought last week - an already opened bag of baby carrots.  Then I found puzld, and now my puzzles are clever, interesting, and totally me!
 * It's just like Uber!  But for puzzles.

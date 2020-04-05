@@ -1,6 +1,3 @@
-var noun = "";
-var style = "";
-
 // Nouns by theme
 var nouns = {"Crime": ["Murderer", "Detective", "Footprint", "Road", "Knife", "Bandana", "Flag"],
 				"Mystery": ["Spy", "Train", "Mansion", "Lightning", "Pencil", "Lantern"],
@@ -19,7 +16,7 @@ function GeneratePuzzle () {
 	var theme_element = document.getElementById("theme");
 	var theme = theme_element.options[theme_element.selectedIndex].value;
 	var style_element = document.getElementById("style");
-	style = style_element.options[style_element.selectedIndex].value;
+	var style = style_element.options[style_element.selectedIndex].value;
 	var difficulty_element = document.getElementById("difficulty");
 	var difficulty = difficulty_element.options[difficulty_element.selectedIndex].value;
 	var duration_hr = document.getElementById("duration_hr").value;
@@ -39,11 +36,10 @@ function GeneratePuzzle () {
 	}
 	// Generate a title and description
 	else {
-		// Description templates
-				var noun_index = Math.floor(Math.random() * nouns[theme].length);
-  		noun = nouns[theme][noun_index];
+		var noun_index = Math.floor(Math.random() * nouns[theme].length);
+  		var noun = nouns[theme][noun_index];
   		var verbs_index = Math.floor(Math.random() * verbs[style].length)
-  		verb = verbs[style][verbs_index];
+  		var verb = verbs[style][verbs_index];
 		var theme_descriptions = {"Crime": `Solve the famous case of the ${noun}. Catch the criminal in this ${style}.`,
 									"Mystery": `Why did the ${noun} dissapear? This ${style} will have you and your detectives searching for evidence.`,
 									"Adventure": `${noun}! Hold onto your hats for this adventurous ${style}.`,
