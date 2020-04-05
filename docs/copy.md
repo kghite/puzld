@@ -18,11 +18,15 @@ Create Your Puzzle
 
 ## Create Your Puzzle
 
+**Instructions**
+
+Enter your preferences and we'll generate a title and description for your puzzle! Just like that, we give you the answer to the current puzzle in your life. (Full puzzle features coming after our next funding round.)
+
 **Parameters**
 
 * Themes - What's the theme of your puzzle?
 	* Crime, Mystery, Adventure, Music, Storytime
-* Styles - What type of puzzle would you like?
+* Styles - What is the style of your puzzle?
 	* Cipher, Escape Room, Math Game, Trivia Challenge
 * Difficulty - What should people say when they figure it out?
 	* My hamster could solve this
@@ -31,7 +35,7 @@ Create Your Puzzle
 	* Ohhh
 	* Ouch, my brain
 	* Huh?
-* Duration - How long should it take to zolve? - [hrs, min] field
+* Duration - How long should your puzzle take to zolve? - [hrs, min] field
 
 **Generated Titles/Descriptions**
 
